@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <hr>
+        <p>Celcius Scale</p>
+        <input type="number" placeholder="Temperature" id="celcius-input">
+        <p class="convert">Converted Value: <span id="convert-value1"></span></p>
+        <div class="temp-button">
+        <button onclick="kelvin1()">Kelvin</button>
+        <button onclick="fahrenheit1()">Fahrenheit</button>
+    </div>
+    <hr>
+    <p>Fahrenheit Scale</p>
+    <input type="number" placeholder="Temperature" id="fahrenheit-input">
+    <p class="convert">Converted Value: <span id="convert-value2"></span></p>
+    <div class="temp-button">
+        <button onclick="kelvin2()">Kelvin</button>
+        <button onclick="celcius1()">Celcius</button>
+    </div>
+    <hr>
+    <p>Kelvin Scale</p>
+    <input type="number" placeholder="Temperature" id="kelvin-input">
+    <p class="convert">Converted Value: <span id="convert-value3"></span></p>
+    <div class="temp-button">
+        <button onclick="fahrenheit2()">Fahrenheit</button>
+        <button onclick="celcius2()">Celcius</button>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
